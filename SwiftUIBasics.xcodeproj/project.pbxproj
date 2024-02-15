@@ -12,6 +12,9 @@
 		505B8EAF2B7C1F6E00E428AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505B8EAE2B7C1F6E00E428AF /* Assets.xcassets */; };
 		505B8EB22B7C1F6E00E428AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505B8EB12B7C1F6E00E428AF /* Preview Assets.xcassets */; };
 		505B8EB92B7C231400E428AF /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505B8EB82B7C231400E428AF /* NextView.swift */; };
+		509C24B22B7E7E1E002173B9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509C24B12B7E7E1E002173B9 /* ListView.swift */; };
+		509C24B42B7E83FC002173B9 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509C24B32B7E83FC002173B9 /* RowView.swift */; };
+		509C24B62B7E84FA002173B9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509C24B52B7E84FA002173B9 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		505B8EAE2B7C1F6E00E428AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		505B8EB12B7C1F6E00E428AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		505B8EB82B7C231400E428AF /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
+		509C24B12B7E7E1E002173B9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		509C24B32B7E83FC002173B9 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		509C24B52B7E84FA002173B9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				505B8EAE2B7C1F6E00E428AF /* Assets.xcassets */,
 				505B8EB02B7C1F6E00E428AF /* Preview Content */,
 				505B8EB82B7C231400E428AF /* NextView.swift */,
+				509C24B12B7E7E1E002173B9 /* ListView.swift */,
+				509C24B32B7E83FC002173B9 /* RowView.swift */,
+				509C24B52B7E84FA002173B9 /* User.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509C24B22B7E7E1E002173B9 /* ListView.swift in Sources */,
+				509C24B42B7E83FC002173B9 /* RowView.swift in Sources */,
+				509C24B62B7E84FA002173B9 /* User.swift in Sources */,
 				505B8EAD2B7C1F5300E428AF /* ContentView.swift in Sources */,
 				505B8EAB2B7C1F5300E428AF /* SwiftUIBasicsApp.swift in Sources */,
 				505B8EB92B7C231400E428AF /* NextView.swift in Sources */,

@@ -94,6 +94,13 @@ struct NextView: View {
             }
         }
         .padding()
+        .toolbar {
+            NavigationLink {
+                ListView()
+            } label: {
+                Image(systemName: "line.3.horizontal")
+            }
+        }
     }
 }
 

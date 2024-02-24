@@ -101,6 +101,7 @@ struct NextView: View {
                 Image(systemName: "line.3.horizontal")
             }
         }
+        .ignoresSafeArea(.keyboard)
     }
 }
 
